@@ -1,0 +1,8 @@
+<div class="container m-3">
+    <section class="example-section p-4">
+        <h4>Search by tags :</h4>
+        <div class="tag" *ngFor="let tag of tagsValues">
+            <mat-checkbox (change)="onCheckboxChange(tag.toString(), $event.checked)">{{ tag }}</mat-checkbox>
+          </div>
+    </section>
+</div>

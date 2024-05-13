@@ -1,0 +1,21 @@
+{{message}}
+
+<div class="container my-5">
+    <div class="title">
+        <markdown [data]="marked.title"></markdown>
+    </div>
+
+    <div class="post-img">
+        <markdown [data]="marked.image"></markdown>
+    </div>
+    <div class="content">
+        <markdown [data]="marked.content"></markdown>
+    </div>
+    <div class="tags">
+        <div class="">
+            <span>Tags:</span>
+        </div>
+            <markdown [data]="marked.tags"></markdown>
+    </div>
+</div>
+

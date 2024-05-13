@@ -1,0 +1,52 @@
+.post-card {
+    width: 320px;
+    height: 400px;
+
+    mat-card-header {
+        background-color: #f5f5f5;
+        padding: 16px;
+        height: 96px;
+        display: flex;
+        align-items: center;
+        overflow: hidden; 
+        text-overflow: ellipsis;
+    }
+
+
+    mat-card-title {
+        font-size: 24px;
+        font-weight: bold;
+        overflow: hidden; 
+        text-overflow: ellipsis;
+    }
+
+    mat-card-subtitle {
+        font-size: 14px;
+        color: #999;
+        overflow: hidden; 
+        text-overflow: ellipsis;
+    }
+
+    mat-card-content {
+        padding: 16px;
+        overflow: hidden; 
+        text-overflow: ellipsis;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+.post-card:hover{
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+}
+
+@media (max-width: 767px) {
+    .post-card {
+      width: 100%;
+      height: auto;
+    }
+  }

@@ -1,0 +1,25 @@
+.container {
+    border-radius: 20px;
+    border: none;
+    height: 400px;
+    width: 400px;
+    margin-bottom: 2em;
+    background-color: #f8f9fa;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.tag{
+    padding: 32px;
+}
+
+
+@media (max-width: 767px) {
+    .container {
+        padding: 0%;
+        width: 220px;
+        height: auto;
+        margin-bottom: 1em;
+    }
+    .tag{
+        padding: 0;
+    }
+}
