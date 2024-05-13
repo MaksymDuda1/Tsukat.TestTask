@@ -1,4 +1,5 @@
 # Tsukat.TestTask
+
 ## Structure
 - [Requirements](#requirements) 
 - [Setup](#setup)
@@ -6,17 +7,18 @@
 - [Usage instructions](#usage-instructions)
 
 ## Requirements
-####You'll must have installed: 
-- Python 3.11.6+(https://www.python.org/)
--  Virtual Environments with Python3.11.6+(https://docs.python.org/3/tutorial/venv.html)
--  Docker(https://docs.docker.com/engine/install/) 
--  Docker-compose(https://docs.docker.com/compose/install/)
+Make sure you have the following installed: 
+- [Python 3.11.6+](https://www.python.org/)
+- [Virtual Environments with Python3.11.6+](https://docs.python.org/3/tutorial/venv.html)
+- [Docker](https://docs.docker.com/engine/install/) 
+- [Docker Compose](https://docs.docker.com/compose/install/)
 
-##Setup 
-Clone repository from github
-```
+## Setup 
+Clone the repository from GitHub:
+```bash
 git clone git@github.com:MaksymDuda1/Tsukat.TestTask.git
 ```
+
 ##Deployment
 ####Build images
 ```
