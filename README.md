@@ -19,18 +19,19 @@ Clone the repository from GitHub:
 git clone git@github.com:MaksymDuda1/Tsukat.TestTask.git
 ```
 
-##Deployment
-####Build images
+## Deployment
+#### Build images
+
 ```
 docker-compose build
 ```
 
-####Run images
+#### Run images
 ```
 docker-compose up
 ```
 
-##Usage instructions
+## Usage instructions
 The application will get started in (http://127.0.0.1:4200)
 
 Swagger Documentation: (http://127.0.0.1:8000/docs)
